@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: #023e8a;
+    text-decoration: underline;
+}
+div{
+    border: 2px solid #023e8a;
+    background-color: #90e0ef;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 95vw;
+}
+
+div{
+    position: sticky;
+    top: 20px;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    line-height: 2rem;
+    background-color:#ffa6c1;
+    border-top: 2px solid #ff5d8f;
+    width: 90vw;
+    
+}
+li::before{
+    content: "\260E";
+}
+
